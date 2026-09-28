@@ -1,0 +1,16 @@
+{
+  "name": "borozdov-flint",
+  "private": true,
+  "description": "White concrete with a single ember: tight compressed type, fog cards with 12px corners and one vivid orange for what you act on.",
+  "license": "MIT",
+  "scripts": {
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
